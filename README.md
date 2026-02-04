@@ -1,39 +1,38 @@
-# Mạch led đơn MKE 1-LED MODULE SINGLE COLOR 10MM
-Public
+# Mạch LED đơn MKE-M01 1-LED 10mm RGYBW Module
 
+## Giới thiệu sản phẩm
+MKE-M01 1-LED 10mm RGYBW Module là mạch LED đơn sử dụng LED kích thước lớn 10mm, cho độ sáng cao và hiệu ứng thị giác rõ ràng. Sản phẩm rất phù hợp để làm đèn báo trạng thái, mô hình robot, sản phẩm STEM, đồ án học tập và trang trí sáng tạo. Mạch có 5 phiên bản màu sắc gồm: Đỏ, Xanh lá, Vàng, Xanh dương và Trắng, giúp người dùng dễ dàng lựa chọn theo nhu cầu ứng dụng.
 
-## Giới thiệu
-
-Mạch led đơn MKE-M01 10mm single LED module sử dụng loại LED kích thước lớn 10mm giúp bạn dễ dàng ứng dụng trong các mô hình xe, trang trí,..., mạch gồm có 4 phiên bản với các màu sắc: Trắng, Xanh lá, Vàng, Đỏ.
-
-Mạch led đơn MKE-M01 10mm single LED module thuộc **hệ sinh thái phần cứng Robotics MakerEdu** nên có thể sử dụng trực tiếp an toàn với các mạch điều khiển trung tâm ở cả hai mức điện áp 3.3VDC và 5VDC như: Arduino, Raspberry Pi, Jetson Nano, Micro:bit,....với chuẩn kết nối Connector XH2.54 thông dụng.
+Mạch LED đơn MKE-M01 1-LED 10mm RGYBW Module hỗ trợ điện áp điều khiển 3.3/5VDC, cho phép kết nối trực tiếp và an toàn với hầu hết các bo mạch điều khiển phổ biến hiện nay như: Arduino, Raspberry Pi, Jetson Nano, Micro:bit,… Mạch sử dụng chuẩn kết nối XH2.54, đảm bảo chắc chắn, ổn định và linh hoạt khi kết nối với dây XH2.54–Dupont.
 
 ## Thông số kỹ thuật
 
-- Điện áp hoạt động: 5VDC
-- Chuẩn giao tiếp: Digital
-- Điện áp giao tiếp: TTL 3.3VDC/5VDC
-- Có 4 phiên bản màu sắc: Trắng , Xanh Lá, Vàng, Đỏ.
-- Sử dụng LED kích thước 10mm.
-- Tích hợp Transistor giúp giảm dòng tiêu thụ và bảo vệ các chân GPIO của mạch xử lý.
-- Sử dụng trực tiếp an toàn với các board mạch giao tiếp ở cả hai mức điện áp 3.3VDC và 5VDC như: Arduino, Raspberry Pi, Jetson Nano, Micro:bit,....
-- Bổ sung thêm các thiết kế ổn định, chống nhiễu.
-- Chuẩn kết nối: connector XH2.54 3Pins
-- Thuộc hệ sinh thái phần cứng Robotics MakerEdu, tương thích tốt nhất khi sử dụng với các mạch điều khiển trung tâm của MakerEdu và MakerEdu Shield.
+- Điện áp cấp nguồn: 5VDC
+- Chuẩn tín hiệu điều khiển: Digital
+- Điện áp giao tiếp: TTL 3.3VDC / 5VDC
+- Màu sắc LED: Đỏ, Xanh lá, Vàng, Xanh dương, Trắng
+- Loại LED: LED đơn đường kính 10mm
+- Mạch bảo vệ:
+  - Tích hợp transistor giúp giảm dòng tiêu thụ
+  - Bảo vệ an toàn cho chân GPIO của vi điều khiển
+- Khả năng tương thích:
+  - Arduino
+  - Raspberry Pi
+  - Jetson Nano
+  - Micro:bit
+  - Và các board điều khiển 3.3/5VDC khác
+
+- Thiết kế mạch:
+  - Ổn định, chống nhiễu
+  - Phù hợp cho ứng dụng học tập và thực tế
+
+- Chuẩn kết nối: 3P XH2.54 (XH2.54 to Dupont)
 
 ## Hình ảnh sản phẩm
 
-![MKE_M01](/image/MKE_M01_1.jpg)
-
-![MKE_M01](/image/MKE_M01_2.jpg)
-
 ## Kích thước sản phẩm
 
-![MKE_M01](/image/MKE_M01_3.jpg)
-
 ## Các chân tín hiệu
-
-![MKE_M01](/image/MKE_M01_2.jpg)
 
 <table><thead>
   <tr>
