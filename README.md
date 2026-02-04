@@ -50,28 +50,6 @@ Mạch LED đơn MKE-M01 1-LED 10mm RGYBW Module hỗ trợ điện áp điều 
   </tr>
 </tbody>
 </table>
-
-<table><thead>
-  <tr>
-    <th>SIG (DIGITAL IN)</th>
-    <th>Trạng thái</th>
-  </tr></thead>
-<tbody>
-  <tr>
-    <td>TTL HIGH</td>
-    <td>Hoạt động (On)</td>
-  </tr>
-  <tr>
-    <td>TTL LOW</td>
-    <td>Không hoạt động (Off)</td>
-  </tr>
-</tbody>
-</table>
-
-## Hướng dẫn sử dụng
-### Hướng dẫn kết nối
-- Cấp nguồn 5VDC cho mạch qua hai chân GND và 5V.
-- Điều khiển đèn Led sáng, tắt qua chân tín hiệu SIG.
 <table><thead>
   <tr>
     <th>SIG (DIGITAL IN)</th>
@@ -89,23 +67,19 @@ Mạch LED đơn MKE-M01 1-LED 10mm RGYBW Module hỗ trợ điện áp điều 
 </tbody>
 </table>
 
-### Hướng dẫn sử dụng với Arduino Uno / Vietduino Uno
+## Hướng dẫn sử dụng
+
+### Hướng dẫn kết nối
+- Cấp nguồn 5VDC cho mạch qua hai chân GND và 5V.
+- Điều khiển đèn Led sáng, tắt qua chân tín hiệu SIG.
+- 
+### Hướng dẫn sử dụng với Arduino Uno / Vietduino Uno / ESP32
 
 - Trong **Tools / Library Manager**, tìm và cài đặt bộ thư viện tổng hợp **"MKE_ONE" by MakerEdu.vn**
-- Mở chương trình mẫu **"MKE_M01_1_LED_Serial_Uno"** tại **File / Examples / MAKEREDU / Module / MKE_M01_1_LED**
-- Chọn board là **Arduino Uno**, chọn đúng cổng **COM Port** của mạch và tiến hành nạp chương trình.
-- Kết nối 
-
-### Hướng dẫn lập trình với mBlock (kéo thả khối)
-
-[Hướng dẫn cài đặt phần mềm, nạp chương trình, cài đặt Extension mBlock cơ bản.](https://github.com/makerlabvn/mBlock-MakerEdu-Creator)
-
-- Tải và cài đặt phần mềm mBlock 5 ([Windows](https://www.mediafire.com/file/ma55iajd7glwmbo/%255BMakerLab.vn%255D_mBlock_V5.4.3_for_Windows.zip/file) / [Mac Intel](https://www.mediafire.com/file/pjfngy6d7ktb55f/%255BMakerLab.vn%255D_mBlock_V5.4.3_for_Mac_Intel.zip/file) / [Mac M1M2](https://www.mediafire.com/file/mfdkgpgnpa7uv2s/%255BMakerLab.vn%255D_mBlock_V5.4.3_for_Mac_M1M2.zip/file))
-- Thêm Device **"MakerEdu Creator"** by MakerEduVN
-- Thêm Extension **"Upload Mode Broadcast"** by mBlock Official
-- Thêm Extension **"MakerEdu Hardware"** by MakerEduVN
-- Mở [chương trình mẫu tại đây](/mBlock5), kết nối MakerEdu Creator với máy tính và nạp chương trình.
-- Kết nối **Module LED** vào cổng **[D10]** và **màn hình LCD** vào cổng **[I2C]** trên MakerEdu Creator, **cấp nguồn qua cổng USB** của MakerEdu Creator để thấy chương trình hoạt động.
+- Mở chương trình mẫu **"MKE_M01_1_LED_Serial_XXX"** tại **File / Examples / MAKEREDU / Module / MKE_M01_1_LED**
+- Cấu hình board mạch tương ứng là **Arduino Uno / ESP32**, chọn đúng cổng **COM Port** của mạch và nhấn **Upload** để nạp chương trình.
+- Cấp nguồn 5VDC cho mạch, kết nối chân SIG của module với chân điều khiển được khai báo trong chương trình.
+- Xem kết quả LED sẽ hoạt động theo chương trình đã nạp.
 
 ### Hướng dẫn lập trình với Micro:bit (kéo thả khối)
 
