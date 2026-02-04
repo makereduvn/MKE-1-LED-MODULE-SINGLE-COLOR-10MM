@@ -3,15 +3,15 @@
 ## Giới thiệu sản phẩm
 MKE-M01 1-LED 10mm RGYBW Module là mạch LED đơn sử dụng LED kích thước lớn 10mm, cho độ sáng cao và hiệu ứng thị giác rõ ràng. Sản phẩm rất phù hợp để làm đèn báo trạng thái, mô hình robot, sản phẩm STEM, đồ án học tập và trang trí sáng tạo. Mạch có 5 phiên bản màu sắc gồm: Đỏ, Xanh lá, Vàng, Xanh dương và Trắng, giúp người dùng dễ dàng lựa chọn theo nhu cầu ứng dụng.
 
-Mạch LED đơn MKE-M01 1-LED 10mm RGYBW Module hỗ trợ điện áp điều khiển 3.3/5VDC, cho phép kết nối trực tiếp và an toàn với hầu hết các bo mạch điều khiển phổ biến hiện nay như: Arduino, Raspberry Pi, Jetson Nano, Micro:bit,… Mạch sử dụng chuẩn kết nối XH2.54, đảm bảo chắc chắn, ổn định và linh hoạt khi kết nối với dây XH2.54–Dupont.
+Mạch LED đơn MKE-M01 1-LED 10mm RGYBW Module hỗ trợ điện áp điều khiển 3.3/5VDC, cho phép kết nối trực tiếp và an toàn với hầu hết các bo mạch điều khiển phổ biến hiện nay như: Arduino, Raspberry Pi, Jetson Nano, Micro:bit,… Mạch đi kèm cáp kết nối 3P XH2.54–Dupont đảm bảo chắc chắn, ổn định và linh hoạt khi kết nối.
 
 ## Thông số kỹ thuật
 
 - Điện áp cấp nguồn: 5VDC
 - Chuẩn tín hiệu điều khiển: Digital
-- Điện áp giao tiếp: TTL 3.3VDC / 5VDC
+- Điện áp giao tiếp: TTL 3.3/5VDC
 - Màu sắc LED: Đỏ, Xanh lá, Vàng, Xanh dương, Trắng
-- Loại LED: LED đơn đường kính 10mm
+- Loại LED: LED đơn sắc đường kính 10mm
 - Mạch bảo vệ:
   - Tích hợp transistor giúp giảm dòng tiêu thụ
   - Bảo vệ an toàn cho chân GPIO của vi điều khiển
@@ -21,19 +21,15 @@ Mạch LED đơn MKE-M01 1-LED 10mm RGYBW Module hỗ trợ điện áp điều 
   - Jetson Nano
   - Micro:bit
   - Và các board điều khiển 3.3/5VDC khác
-
 - Thiết kế mạch:
   - Ổn định, chống nhiễu
   - Phù hợp cho ứng dụng học tập và thực tế
-
-- Chuẩn kết nối: 3P XH2.54 (XH2.54 to Dupont)
-
+- Đi kèm cáp kết nối: 3P XH2.54–Dupont
 ## Hình ảnh sản phẩm
 
 ## Kích thước sản phẩm
 
 ## Các chân tín hiệu
-
 <table><thead>
   <tr>
     <th>MKE-M01</th>
@@ -50,14 +46,14 @@ Mạch LED đơn MKE-M01 1-LED 10mm RGYBW Module hỗ trợ điện áp điều 
   </tr>
   <tr>
     <td>SIG</td>
-    <td>Chân tín hiệu Digital In</td>
+    <td>Chân tín hiệu điều khiển DIGITAL IN</td>
   </tr>
 </tbody>
 </table>
 
 <table><thead>
   <tr>
-    <th>SIG (Digital In)</th>
+    <th>SIG (DIGITAL IN)</th>
     <th>Trạng thái</th>
   </tr></thead>
 <tbody>
@@ -73,38 +69,32 @@ Mạch LED đơn MKE-M01 1-LED 10mm RGYBW Module hỗ trợ điện áp điều 
 </table>
 
 ## Hướng dẫn sử dụng
+### Hướng dẫn kết nối
+- Cấp nguồn 5VDC cho mạch qua hai chân GND và 5V.
+- Điều khiển đèn Led sáng, tắt qua chân tín hiệu SIG.
+<table><thead>
+  <tr>
+    <th>SIG (DIGITAL IN)</th>
+    <th>Trạng thái</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td>TTL HIGH (3.3/5VDC)</td>
+    <td>Hoạt động (On)</td>
+  </tr>
+  <tr>
+    <td>TTL LOW (0VDC)</td>
+    <td>Không hoạt động (Off)</td>
+  </tr>
+</tbody>
+</table>
 
-### Các thiết bị sử dụng trong bài hướng dẫn
+### Hướng dẫn sử dụng với Arduino Uno / Vietduino Uno
 
-#### Arduino
-
-- [Mạch Vietduino Uno (Arduino Uno Compatible)](https://www.makerlab.vn/vuno)
-- [Mạch MakerEdu Shield for Vietduino](https://www.makerlab.vn/vietduinosd)
-- [Mạch led đơn MKE-M01 10mm single LED module](https://www.makerlab.vn/mkem01)
-- [Mạch màn hình MKE-M07 LCD1602 I2C Display Module](https://www.makerlab.vn/mkem07)
-
-#### mBlock
-
-- [Mạch MakerEdu Creator (Arduino Uno Compatible)](https://www.makerlab.vn/creator)
-- [Mạch led đơn MKE-M01 10mm single LED module](https://www.makerlab.vn/mkem01)
-- [Mạch màn hình MKE-M07 LCD1602 I2C Display Module](https://www.makerlab.vn/mkem07)
-
-#### Micro:bit:
-
-- [Mạch Micro:bit V2](https://hshop.vn/products/kit-hoc-lap-trinh-stem-cho-tre-em-micro-bit-v2) hoặc các phiên bản tương thích.
-- [Mạch MakerEdu Shield for Micro:bit](https://www.makerlab.vn/microbitsd)
-- [Mạch led đơn MKE-M01 10mm single LED module](https://www.makerlab.vn/mkem01)
-- [Mạch màn hình MKE-M07 LCD1602 I2C Display Module](https://www.makerlab.vn/mkem07)
-
-### Hướng dẫn sử dụng với Arduino (Code C)
-  
-[Hướng dẫn cài đặt phần mềm, nạp chương trình, cài đặt bộ thư viện Arduino cơ bản.](https://github.com/makerlabvn/Arduino-Vietduino)
-
-- Tải và cài đặt [phần mềm Arduino tại đây.](https://www.arduino.cc/en/software)
-- Trong **Tools / Library Manager**, tìm và cài đặt bộ thư viện tổng hợp **"MAKERLABVN" by MakerLab.vn**
-- Mở chương trình mẫu **"MKE_M01_Single_LED_LCD_Serial"** tại **File / Examples / MAKERLABVN / Module / MKE_M01_Single_LED_LCD_Serial** hoặc [tải chương trình mẫu tại đây](/arduino)
-- Chọn board là **Arduino Uno** (mạch Vietduino Uno tương thích với Arduino Uno), chọn đúng cổng **COM Port** của mạch và tiến hành nạp chương trình.
-- Kết nối mạch **Vietduino Uno** với **MakerEdu Shield**, kết nối **Module LED** vào cổng **[D10]**. Cấp nguồn qua cổng USB của Vietduino Uno để thấy chương trình hoạt động.
+- Trong **Tools / Library Manager**, tìm và cài đặt bộ thư viện tổng hợp **"MKE_ONE" by MakerEdu.vn**
+- Mở chương trình mẫu **"MKE_M01_1_LED_Serial_Uno"** tại **File / Examples / MAKEREDU / Module / MKE_M01_1_LED**
+- Chọn board là **Arduino Uno**, chọn đúng cổng **COM Port** của mạch và tiến hành nạp chương trình.
+- Kết nối 
 
 ### Hướng dẫn lập trình với mBlock (kéo thả khối)
 
