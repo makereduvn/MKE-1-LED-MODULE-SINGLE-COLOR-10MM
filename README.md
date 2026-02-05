@@ -6,7 +6,6 @@ MKE-M01 1-LED 10mm RGYBW Module là mạch LED đơn sử dụng LED kích thư�
 Mạch LED đơn MKE-M01 1-LED 10mm RGYBW Module hỗ trợ điện áp điều khiển 3.3/5VDC, cho phép kết nối trực tiếp và an toàn với hầu hết các bo mạch điều khiển phổ biến hiện nay như: Arduino, Raspberry Pi, Jetson Nano, Micro:bit,… Mạch đi kèm cáp kết nối 3P XH2.54–Dupont đảm bảo chắc chắn, ổn định và linh hoạt khi kết nối.
 
 ## Thông số kỹ thuật
-
 - Điện áp cấp nguồn: 5VDC
 - Chuẩn tín hiệu điều khiển: Digital
 - Điện áp giao tiếp: TTL 3.3/5VDC
@@ -25,9 +24,6 @@ Mạch LED đơn MKE-M01 1-LED 10mm RGYBW Module hỗ trợ điện áp điều 
   - Ổn định, chống nhiễu
   - Phù hợp cho ứng dụng học tập và thực tế
 - Đi kèm cáp kết nối: 3P XH2.54–Dupont
-## Hình ảnh sản phẩm
-
-## Kích thước sản phẩm
 
 ## Các chân tín hiệu
 <table><thead>
@@ -52,7 +48,6 @@ Mạch LED đơn MKE-M01 1-LED 10mm RGYBW Module hỗ trợ điện áp điều 
 </table>
 
 ## Hướng dẫn sử dụng
-
 ### Hướng dẫn kết nối
 - Cấp nguồn 5VDC cho mạch qua hai chân GND và 5V.
 - Điều khiển đèn Led sáng, tắt qua chân tín hiệu SIG.
@@ -74,7 +69,6 @@ Mạch LED đơn MKE-M01 1-LED 10mm RGYBW Module hỗ trợ điện áp điều 
 </table>
 
 ### Hướng dẫn sử dụng với Arduino Uno / Vietduino Uno / ESP32
-
 - Trong **Tools / Library Manager**, tìm và cài đặt bộ thư viện tổng hợp **"MKE_ONE" by MakerEdu.vn**
 - Mở chương trình mẫu **"MKE_M01_1_LED_Serial_XXX"** tại **File / Examples / MAKEREDU / Module / MKE_M01_1_LED**
 - Cấu hình board mạch tương ứng là **Arduino Uno / ESP32**, chọn đúng cổng **COM Port** của mạch và nhấn **Upload** để nạp chương trình.
@@ -82,12 +76,10 @@ Mạch LED đơn MKE-M01 1-LED 10mm RGYBW Module hỗ trợ điện áp điều 
 - Xem kết quả mạch hoạt động theo chương trình đã nạp.
 
 ### Hướng dẫn lập trình với Micro:bit (kéo thả khối)
-
 - Cài đặt Extension **MKE_ONE_MICROBIT** trên trong [Microsoft MakeCode](https://makecode.microbit.org/) theo [hướng dẫn tại đây](https://github.com/makereduvn/MKE_ONE_MICROBIT).
 - Sau khi cài đặt thành công, các khối lệnh của Extension **MKE_ONE_MICROBIT** sẽ xuất hiện trong danh sách block và sẵn sàng để sử dụng.
 - Kết nối mạch Micro:bit và nạp (Download) chương trình theo hình dưới đây.
 - Cấp nguồn 5VDC cho mạch, kết nối chân SIG của module với chân điều khiển được khai báo trong chương trình.
 - Xem kết quả mạch hoạt động theo chương trình đã nạp.
 
-
-  
+## Hình ảnh sản phẩm
