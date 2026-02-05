@@ -50,6 +50,12 @@ Mạch LED đơn MKE-M01 1-LED 10mm RGYBW Module hỗ trợ điện áp điều 
   </tr>
 </tbody>
 </table>
+
+## Hướng dẫn sử dụng
+
+### Hướng dẫn kết nối
+- Cấp nguồn 5VDC cho mạch qua hai chân GND và 5V.
+- Điều khiển đèn Led sáng, tắt qua chân tín hiệu SIG.
 <table><thead>
   <tr>
     <th>SIG (DIGITAL IN)</th>
@@ -66,12 +72,6 @@ Mạch LED đơn MKE-M01 1-LED 10mm RGYBW Module hỗ trợ điện áp điều 
   </tr>
 </tbody>
 </table>
-
-## Hướng dẫn sử dụng
-
-### Hướng dẫn kết nối
-- Cấp nguồn 5VDC cho mạch qua hai chân GND và 5V.
-- Điều khiển đèn Led sáng, tắt qua chân tín hiệu SIG.
 
 ### Hướng dẫn sử dụng với Arduino Uno / Vietduino Uno / ESP32
 
