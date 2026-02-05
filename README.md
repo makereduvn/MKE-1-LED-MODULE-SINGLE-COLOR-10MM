@@ -72,32 +72,24 @@ Mạch LED đơn MKE-M01 1-LED 10mm RGYBW Module hỗ trợ điện áp điều 
 ### Hướng dẫn kết nối
 - Cấp nguồn 5VDC cho mạch qua hai chân GND và 5V.
 - Điều khiển đèn Led sáng, tắt qua chân tín hiệu SIG.
-- 
+
 ### Hướng dẫn sử dụng với Arduino Uno / Vietduino Uno / ESP32
 
 - Trong **Tools / Library Manager**, tìm và cài đặt bộ thư viện tổng hợp **"MKE_ONE" by MakerEdu.vn**
 - Mở chương trình mẫu **"MKE_M01_1_LED_Serial_XXX"** tại **File / Examples / MAKEREDU / Module / MKE_M01_1_LED**
 - Cấu hình board mạch tương ứng là **Arduino Uno / ESP32**, chọn đúng cổng **COM Port** của mạch và nhấn **Upload** để nạp chương trình.
 - Cấp nguồn 5VDC cho mạch, kết nối chân SIG của module với chân điều khiển được khai báo trong chương trình.
-- Xem kết quả LED sẽ hoạt động theo chương trình đã nạp.
+- Xem kết quả mạch hoạt động theo chương trình đã nạp.
 
 ### Hướng dẫn lập trình với Micro:bit (kéo thả khối)
 
-[Hướng dẫn nạp chương trình, cài đặt Extension Micro:bit cơ bản.](https://github.com/makerlabvn/MakeCode-microbit)
+- Truy cập trang MakeCode micro:bit tại: [https://makecode.microbit.org/](https://makecode.microbit.org/)
+- Nhấn New Project để tạo một dự án mới.
+- Nhấn vào biểu tượng bánh răng (⚙️) ở góc trên bên phải, sau đó chọn Extensions.
+- Trong ô tìm kiếm Extension, dán đường dẫn sau và nhấn chọn để thêm vào dự án: [https://github.com/makereduvn/MKE_ONE_MICROBIT](https://github.com/makereduvn/MKE_ONE_MICROBIT)
+- Sau khi cài đặt thành công, các khối lệnh của MKE_ONE_MICROBIT sẽ xuất hiện trong danh sách block và sẵn sàng để sử dụng.
+- Cấp nguồn 5VDC cho mạch, kết nối chân SIG của module với chân điều khiển được khai báo trong chương trình.
+- Xem kết quả mạch hoạt động theo chương trình đã nạp.
 
-- Khởi động phần mềm MakeCode tại: [https://makecode.microbit.org/](https://makecode.microbit.org/)
-- Chọn **My Projects / Import / Import URL** theo đường link của chương trình mẫu:
 
-      https://github.com/devmakerlabvn/makecode-mke-m01-single-led-module
-
-- Kết nối **Micro:bit với máy tính** và **nạp chương trình**.
-- Kết nối mạch **Micro:bit với MakerEdu Shield**, kết nối **Module LED tại cổng [P0]** và **màn hình LCD vào cổng [I2C] trên MakerEdu Shield**, **cấp nguồn qua cổng USB của MakerEdu Shield** để thấy chương trình hoạt động.
-
-## Hỗ trợ và liên hệ
-
-- Website: [https://www.makerlab.vn/](https://www.makerlab.vn/)
-- Facebook: [https://www.facebook.com/makerlabvn](https://www.facebook.com/makerlabvn)
-
-## Nhà phân phối
-
-- Các bạn có thể mua sản phẩm của MakerLab tại các [Nhà Phân Phối.](https://www.makerlab.vn/distributor/)
+  
