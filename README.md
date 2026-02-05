@@ -83,11 +83,9 @@ Mạch LED đơn MKE-M01 1-LED 10mm RGYBW Module hỗ trợ điện áp điều 
 
 ### Hướng dẫn lập trình với Micro:bit (kéo thả khối)
 
-- Truy cập trang MakeCode micro:bit tại: [https://makecode.microbit.org/](https://makecode.microbit.org/)
-- Nhấn New Project để tạo một dự án mới.
-- Nhấn vào biểu tượng bánh răng (⚙️) ở góc trên bên phải, sau đó chọn Extensions.
-- Trong ô tìm kiếm Extension, dán đường dẫn sau và nhấn chọn để thêm vào dự án: [https://github.com/makereduvn/MKE_ONE_MICROBIT](https://github.com/makereduvn/MKE_ONE_MICROBIT)
-- Sau khi cài đặt thành công, các khối lệnh của MKE_ONE_MICROBIT sẽ xuất hiện trong danh sách block và sẵn sàng để sử dụng.
+- Cài đặt Extension **MKE_ONE_MICROBIT** trên trong [Microsoft MakeCode](https://makecode.microbit.org/) theo [hướng dẫn tại đây](https://github.com/makereduvn/MKE_ONE_MICROBIT).
+- Sau khi cài đặt thành công, các khối lệnh của Extension **MKE_ONE_MICROBIT** sẽ xuất hiện trong danh sách block và sẵn sàng để sử dụng.
+- Kết nối mạch Micro:bit và nạp (Download) chương trình theo hình dưới đây.
 - Cấp nguồn 5VDC cho mạch, kết nối chân SIG của module với chân điều khiển được khai báo trong chương trình.
 - Xem kết quả mạch hoạt động theo chương trình đã nạp.
 
