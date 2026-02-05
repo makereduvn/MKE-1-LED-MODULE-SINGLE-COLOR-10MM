@@ -85,5 +85,3 @@ Mạch LED đơn MKE-M01 1-LED 10mm RGYBW Module hỗ trợ điện áp điều 
 ## Hình ảnh sản phẩm
 ![MKE-M01 1-LED](/extras/MKE-M01_1.png)
 ![MKE-M01 1-LED](/extras/MKE-M01_2.png)
-![MKE-M01 1-LED](/extras/MKE-M01_3.png)
-![MKE-M01 1-LED](/extras/MKE-M01_4.png)
