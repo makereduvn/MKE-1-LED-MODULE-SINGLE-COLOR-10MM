@@ -85,8 +85,8 @@ Mạch LED đơn MKE-M01 1-LED 10mm RGYBW Module hỗ trợ điện áp điều 
 Nếu bắt đầu tự án mới cần cài đặt Extension **MKE_ONE_MICROBIT** trên [Microsoft MakeCode](https://makecode.microbit.org/) theo [hướng dẫn tại đây](https://github.com/makereduvn/MKE_ONE_MICROBIT). Sau khi cài đặt thành công, các khối lệnh của Extension **MKE_ONE_MICROBIT** sẽ xuất hiện trong danh sách block và sẵn sàng để sử dụng.
 
 ## Kích thước sản phẩm
-![MKE-M01 1-LED](/extras/MKE-M01_3.jpg)
+![MKE-M01 1-LED](/extras/MKE-M01_1.jpg)
 
 ## Hình ảnh sản phẩm
-![MKE-M01 1-LED](/extras/MKE-M01_1.png)
 ![MKE-M01 1-LED](/extras/MKE-M01_2.png)
+![MKE-M01 1-LED](/extras/MKE-M01_3.png)
