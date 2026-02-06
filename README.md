@@ -42,7 +42,7 @@ Mạch LED đơn MKE-M01 1-LED 10mm RGYBW Module hỗ trợ điện áp điều 
   </tr>
   <tr>
     <td>SIG</td>
-    <td>Chân tín hiệu điều khiển DIGITAL IN</td>
+    <td>Chân tín hiệu điều khiển Digital In</td>
   </tr>
 </tbody>
 </table>
@@ -53,7 +53,7 @@ Mạch LED đơn MKE-M01 1-LED 10mm RGYBW Module hỗ trợ điện áp điều 
 - Điều khiển đèn Led qua chân tín hiệu SIG.
 <table><thead>
   <tr>
-    <th>SIG (DIGITAL IN)</th>
+    <th>SIG (Digital In)</th>
     <th>Trạng thái</th>
   </tr></thead>
 <tbody>
@@ -76,11 +76,16 @@ Mạch LED đơn MKE-M01 1-LED 10mm RGYBW Module hỗ trợ điện áp điều 
 - Xem kết quả mạch hoạt động theo chương trình đã nạp.
 
 ### Hướng dẫn lập trình với Micro:bit (kéo thả khối)
-- Cài đặt Extension **MKE_ONE_MICROBIT** trên trong [Microsoft MakeCode](https://makecode.microbit.org/) theo [hướng dẫn tại đây](https://github.com/makereduvn/MKE_ONE_MICROBIT).
-- Sau khi cài đặt thành công, các khối lệnh của Extension **MKE_ONE_MICROBIT** sẽ xuất hiện trong danh sách block và sẵn sàng để sử dụng.
-- Kết nối mạch Micro:bit và nạp (Download) chương trình theo hình dưới đây.
+
+- Khởi động [Microsoft MakeCode](https://makecode.microbit.org/) và **Import** chương trình theo đường link sau: `https://github.com/makereduvn/mke_m01_1_led_microbit/`
+- Kết nối mạch Micro:bit và **Download** chương trình.
 - Cấp nguồn 5VDC cho mạch, kết nối chân SIG của module với chân điều khiển được khai báo trong chương trình.
 - Xem kết quả mạch hoạt động theo chương trình đã nạp.
+
+Nếu bắt đầu tự án mới cần cài đặt Extension **MKE_ONE_MICROBIT** trên [Microsoft MakeCode](https://makecode.microbit.org/) theo [hướng dẫn tại đây](https://github.com/makereduvn/MKE_ONE_MICROBIT). Sau khi cài đặt thành công, các khối lệnh của Extension **MKE_ONE_MICROBIT** sẽ xuất hiện trong danh sách block và sẵn sàng để sử dụng.
+
+## Kích thước sản phẩm
+![MKE-M01 1-LED](/extras/MKE-M01_3.jpg)
 
 ## Hình ảnh sản phẩm
 ![MKE-M01 1-LED](/extras/MKE-M01_1.png)
