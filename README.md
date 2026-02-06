@@ -42,7 +42,7 @@ Mạch LED đơn MKE-M01 1-LED 10mm RGYBW Module hỗ trợ điện áp điều 
   </tr>
   <tr>
     <td>SIG</td>
-    <td>Chân tín hiệu điều khiển DIGITAL IN</td>
+    <td>Chân tín hiệu điều khiển Digital In</td>
   </tr>
 </tbody>
 </table>
@@ -53,7 +53,7 @@ Mạch LED đơn MKE-M01 1-LED 10mm RGYBW Module hỗ trợ điện áp điều 
 - Điều khiển đèn Led qua chân tín hiệu SIG.
 <table><thead>
   <tr>
-    <th>SIG (DIGITAL IN)</th>
+    <th>SIG (Digital In)</th>
     <th>Trạng thái</th>
   </tr></thead>
 <tbody>
